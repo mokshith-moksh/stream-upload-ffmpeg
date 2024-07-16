@@ -1,0 +1,27 @@
+{
+  "name": "transcodingv2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index",
+    "build": "tsc -p .",
+    "dev": "tsc-watch --onsuccess \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.614.0",
+    "@aws-sdk/lib-storage": "^3.614.0",
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
+    "fluent-ffmpeg": "^2.1.3",
+    "fluent-ffmpeg-7": "^2.1.5",
+    "mp4box": "^0.5.2"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "tsc-watch": "^6.2.0"
+  }
+}
